@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Exit
   - Entrance
+  - Ground
   layers:
   - Default
   - TransparentFX
