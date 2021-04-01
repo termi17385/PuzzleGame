@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
-
+using Sirenix.OdinInspector;
+using UnityEngine.EventSystems;
 /*  ChangeLog and Description
  *  
  *  This script is incomplete and will be given a lot of changes
@@ -11,6 +11,7 @@ using NaughtyAttributes;
  * 
  *  Added sprinting and stamina to the player
  *  Added debugging to the player to show stamina being depleted or recovered
+ *  Added oden to make the inspector look nicer and a lot of other helpful things
  *  
  *  Made it so stamina only drains when the player has actually moved while sprinting
  *  
@@ -19,7 +20,8 @@ using NaughtyAttributes;
 namespace PuzzleGame.player
 {
     [RequireComponent(typeof(Rigidbody2D))]
-    public class PlayerController : MonoBehaviour
+    [HideMonoScript]
+    public class PlayerController : SerializedMonoBehaviour
     {
         #region Properties
         /// <summary>
@@ -27,6 +29,7 @@ namespace PuzzleGame.player
         /// <br/> when the player holds shift or circle 
         /// <br/> on ps4 controller 
         /// </summary>
+        [ShowInInspector, TabGroup("Variables and Properties/Split/Properties", "Properties")] 
         private float Movement
         {
             get
@@ -47,6 +50,7 @@ namespace PuzzleGame.player
         /// <summary>
         /// Handles getting and assigning stamina
         /// </summary>
+        [ShowInInspector, TabGroup("Variables and Properties/Split/Properties", "Properties")]
         private float GetStamina
         {
             get 
@@ -60,30 +64,38 @@ namespace PuzzleGame.player
         /// <summary>
         /// Handles depleting stamina
         /// </summary>
+        [ShowInInspector, ReadOnly, TabGroup("Variables and Properties/Split/Properties", "Debugging")]
         private float DepleteStamina
         {
+            get => stamina;
             set => stamina -= value;
         }
         /// <summary>
         /// Handles recovering stamina
         /// </summary>
+        [ShowInInspector, ReadOnly, TabGroup("Variables and Properties/Split/Properties", "Debugging")]
         private float RecoverStamina
         {
+            get => stamina;
             set => stamina += value;
         }
         #endregion
         #endregion
         #region Variables
         private Rigidbody2D rb;
-        [SerializeField, Foldout("Speed and Height")] private float moveSpeed = 10f;
-        [SerializeField, Foldout("Speed and Height")] private float jumpHeight = 6f;
+        [TitleGroup("Variables and Properties")]
+        [HorizontalGroup("Variables and Properties/Split", Width = 0.5f)]
+        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "MovementVars")] private float moveSpeed = 10f;
+        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "MovementVars")] private float jumpHeight = 6f;
 
-        [SerializeField] private float stamina;
-        [SerializeField, ReadOnly] private float maxStamina = 100;
+        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "StaminaVars")] private float stamina;
+        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "StaminaVars")] private float maxStamina = 100;
 
-        [SerializeField, ReadOnly] private bool isGrounded; // used to check if we are touching the floor
+        [SerializeField] private bool isGrounded; // used to check if we are touching the floor
         private bool doJump = false;
 
+        private Animator anim;
+        private WaitForSeconds animationDuration = new WaitForSeconds(0.4f);
         private float playerMoved;
         #endregion
 
@@ -92,7 +104,8 @@ namespace PuzzleGame.player
         // Start is called before the first frame update
         void Start()
         { 
-            rb = GetComponent<Rigidbody2D>(); // gets the rigidBody of the player
+            rb = GetComponent<Rigidbody2D>();   // gets the rigidBody of the player
+            anim = GetComponent<Animator>();    // gets the animator of the player
             stamina = maxStamina;
         }
         #region Updates
@@ -125,21 +138,16 @@ namespace PuzzleGame.player
             // get the movement axis for the player
             #region no peeking
             playerMoved = Input.GetAxis("Horizontal");
-
-            SpriteRenderer flipDir =
-            GetComponent<SpriteRenderer>();
+            SpriteRenderer flipDir = GetComponent<SpriteRenderer>();
             #endregion
             #region flipCharacter
-            if (playerMoved < 0)
-                flipDir.flipX = true; // flips the sprite to look right
-            if (playerMoved > 0)
-                flipDir.flipX = false; // flips the sprite to look left
+            if (playerMoved < 0) flipDir.flipX = true; // flips the sprite to look right
+            if (playerMoved > 0) flipDir.flipX = false; // flips the sprite to look left
             #endregion
 
             // move the player
             rb.velocity = new Vector2(playerMoved * Movement, rb.velocity.y);
         }
-
         /// <summary>
         /// Handles the controls for getting the player to jump
         /// </summary>
@@ -152,7 +160,9 @@ namespace PuzzleGame.player
 
             if (canJump) // checks if button it pressed
             {
+                anim.SetBool("isJumping", true);
                 doJump = true; // lets the player jump
+                StartCoroutine(Effects());
             }
         }
         #endregion
@@ -186,5 +196,11 @@ namespace PuzzleGame.player
             GUI.Box(new Rect(10 * 10, 50 * 10, 50, 100), "");       // background box
         }
         #endregion
+
+        private IEnumerator Effects()
+        {
+            yield return animationDuration;
+            anim.SetBool("isJumping", false);
+        }
     }
 }
