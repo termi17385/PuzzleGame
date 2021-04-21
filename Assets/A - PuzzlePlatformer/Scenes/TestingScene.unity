@@ -1837,18 +1837,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4382707659225749729, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
-      propertyPath: m_Size.x
-      value: 5.328125
-      objectReference: {fileID: 0}
-    - target: {fileID: 4382707659225749729, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
-      propertyPath: m_Size.y
-      value: 9.96875
-      objectReference: {fileID: 0}
-    - target: {fileID: 4382707659225749729, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
-      propertyPath: m_UsedByEffector
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4382707659640032181, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -1858,24 +1846,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4382707659640032201, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.19492897
-      objectReference: {fileID: 0}
-    - target: {fileID: 4382707659640032201, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.19492897
-      objectReference: {fileID: 0}
-    - target: {fileID: 4382707659640032201, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.19492897
-      objectReference: {fileID: 0}
-    - target: {fileID: 4382707659640032201, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.9
+      value: -13.84
       objectReference: {fileID: 0}
     - target: {fileID: 4382707659640032201, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.6
+      value: -9.44
       objectReference: {fileID: 0}
     - target: {fileID: 4382707659640032201, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1909,13 +1885,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4382707659640032202, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
-      propertyPath: m_Offset.y
-      value: -4.76
-      objectReference: {fileID: 0}
     - target: {fileID: 4382707659640032207, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
       propertyPath: m_Name
       value: '[Character]'
       objectReference: {fileID: 0}
+    - target: {fileID: 8476436283912205223, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8476436283912205223, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc3913baa0721142af1a6e05150e0c0, type: 3}

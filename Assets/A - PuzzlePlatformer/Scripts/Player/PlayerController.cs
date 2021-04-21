@@ -1,25 +1,22 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
-using UnityEngine.EventSystems;
 /*  ChangeLog and Description
- *  
- *  This script is incomplete and will be given a lot of changes
+ 
+ *  This script is incomplete and will be given a lot of changes                
  *  need to improve movement and add sprinting while also adding
  *  some properties to improve things.
- * 
- *  Added sprinting and stamina to the player
- *  Added debugging to the player to show stamina being depleted or recovered
- *  Added oden to make the inspector look nicer and a lot of other helpful things
- *  
- *  Made it so stamina only drains when the player has actually moved while sprinting
- *  
+ 
+ +  Added sprinting and stamina to the player
+ +  Added debugging to the player to show stamina being depleted or recovered
+ +  Made it so stamina only drains when the player has actually moved while sprinting
+ +  added a public property for detecting if the player is grounded
+ 
  *  ChangeLog made by - josh
  */
 namespace PuzzleGame.player
-{
-    [RequireComponent(typeof(Rigidbody2D))]
+{   
+    [RequireComponent(typeof(Rigidbody2D), typeof(PlayerAnimationManager))]
     [HideMonoScript]
     public class PlayerController : SerializedMonoBehaviour
     {
@@ -44,6 +41,11 @@ namespace PuzzleGame.player
                     return moveSpeed; // else returns speed to default value
                 }
             }
+        }
+
+        public bool IsGrounded
+        {
+            get => isGrounded;
         }
 
         #region Stamina Properties
@@ -88,9 +90,10 @@ namespace PuzzleGame.player
         [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "MovementVars")] private float moveSpeed = 10f;
         [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "MovementVars")] private float jumpHeight = 6f;
 
-        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "StaminaVars")] private float stamina;
+        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "StaminaVars"), ProgressBar(0, 100, r: 0, g: 1, b: 0.3f, Height = 10)] private float stamina;
         [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "StaminaVars")] private float maxStamina = 100;
 
+        [SerializeField] private PlayerAnimationManager pAnimManager;
         [SerializeField] private bool isGrounded; // used to check if we are touching the floor
         private bool doJump = false;
 
@@ -105,7 +108,8 @@ namespace PuzzleGame.player
         void Start()
         { 
             rb = GetComponent<Rigidbody2D>();   // gets the rigidBody of the player
-            anim = GetComponent<Animator>();    // gets the animator of the player
+            anim = GetComponent<Animator>();    // gets the animator of the player   '
+            pAnimManager = GetComponent<PlayerAnimationManager>();
             stamina = maxStamina;
         }
         #region Updates
@@ -135,11 +139,13 @@ namespace PuzzleGame.player
         /// </summary>
         private void PlayerMovement()
         {
+            #region Misc
             // get the movement axis for the player
-            #region no peeking
             playerMoved = Input.GetAxis("Horizontal");
+            
             SpriteRenderer flipDir = GetComponent<SpriteRenderer>();
             #endregion
+
             #region flipCharacter
             if (playerMoved < 0) flipDir.flipX = true; // flips the sprite to look right
             if (playerMoved > 0) flipDir.flipX = false; // flips the sprite to look left
@@ -160,9 +166,9 @@ namespace PuzzleGame.player
 
             if (canJump) // checks if button it pressed
             {
-                anim.SetBool("isJumping", true);
+                StartCoroutine(pAnimManager.JumpEffects());
                 doJump = true; // lets the player jump
-                StartCoroutine(Effects());
+                
             }
         }
         #endregion
@@ -170,12 +176,26 @@ namespace PuzzleGame.player
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Ground"))
+            {
+                #region Misc
+                bool inAir = anim.GetBool("InAir");
+                #endregion
+
                 isGrounded = true;
+                anim.SetBool("Grounded", true);
+                anim.SetBool("InAir", false);
+
+                if (inAir == true) 
+                    StartCoroutine(pAnimManager.LandingEffects());
+            }
         }
         private void OnTriggerExit2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Ground"))
+            {
                 isGrounded = false;
+                anim.SetBool("Grounded", false);
+            }
         }
         #endregion
         #endregion
@@ -197,10 +217,5 @@ namespace PuzzleGame.player
         }
         #endregion
 
-        private IEnumerator Effects()
-        {
-            yield return animationDuration;
-            anim.SetBool("isJumping", false);
-        }
     }
 }
