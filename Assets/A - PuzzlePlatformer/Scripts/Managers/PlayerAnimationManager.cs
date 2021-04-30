@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
+using PuzzleGame.Prototyping;
 
 /*  Changelog and Description
 
@@ -15,21 +16,21 @@ using Sirenix.OdinInspector;
  *  created by josh
  */
 
-namespace PuzzleGame.player
+namespace PuzzleGame.Player.Animations
 {
     [RequireComponent(typeof(Animator))]
     [HideMonoScript]
     public class PlayerAnimationManager : SerializedMonoBehaviour
     {
         [SerializeField] private Animator anim;
-        private PlayerController pController;
+        private PlayerControllerOld pController;    
 
         [SerializeField, TabGroup("jumpAnim")] private float jumpDur = 0.2f;
         [SerializeField, TabGroup("jumpAnim")] private float airDur = 0.2f;
 
         private void Start()
         { 
-            pController = GetComponent<PlayerController>();
+            pController = GetComponent<PlayerControllerOld>();
         }
         public IEnumerator JumpEffects()
         {
