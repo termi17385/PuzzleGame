@@ -21,7 +21,7 @@ namespace PuzzleGame.player
     [HideMonoScript]
     public class PlayerAnimationManager : SerializedMonoBehaviour
     {
-        private Animator anim;
+        [SerializeField] private Animator anim;
         private PlayerController pController;
 
         [SerializeField, TabGroup("jumpAnim")] private float jumpDur = 0.2f;
@@ -29,7 +29,6 @@ namespace PuzzleGame.player
 
         private void Start()
         { 
-            anim = GetComponent<Animator>();
             pController = GetComponent<PlayerController>();
         }
         public IEnumerator JumpEffects()

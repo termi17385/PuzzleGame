@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: dd52c2dd351dc274587b7d464507e5ae
+guid: b945bd3e3ce97074fb62361d3a3d94f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9194442510002499601
-    second: ScientistWalk_0
+      213: 3191487229801253599
+    second: Scientist_0
   - first:
-      213: 9009411254154876590
-    second: ScientistWalk_1
+      213: 4496153721236874793
+    second: Scientist_1
   - first:
-      213: -7166432972730445515
-    second: ScientistWalk_2
+      213: 5014882533444588982
+    second: Scientist_2
   - first:
-      213: 9004174638025275973
-    second: ScientistWalk_3
+      213: 7042246541931600999
+    second: Scientist_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ScientistWalk_0
+      name: Scientist_0
       rect:
         serializedVersion: 2
         x: 13
         y: 64
         width: 36
-        height: 59
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1103374afb8399f70800000000000000
-      internalID: 9194442510002499601
+      spriteID: fdacf7de9b07a4c20800000000000000
+      internalID: 3191487229801253599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScientistWalk_1
+      name: Scientist_1
       rect:
         serializedVersion: 2
         x: 78
         y: 64
         width: 36
-        height: 59
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea6de4f3dcbd70d70800000000000000
-      internalID: 9009411254154876590
+      spriteID: 926efd1ecfb856e30800000000000000
+      internalID: 4496153721236874793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScientistWalk_2
+      name: Scientist_2
       rect:
         serializedVersion: 2
         x: 13
         y: 0
         width: 36
-        height: 59
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53151c14e27bb8c90800000000000000
-      internalID: -7166432972730445515
+      spriteID: 6b5964c1811789540800000000000000
+      internalID: 5014882533444588982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScientistWalk_3
+      name: Scientist_3
       rect:
         serializedVersion: 2
         x: 78
         y: 0
         width: 36
-        height: 59
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54af31b802145fc70800000000000000
-      internalID: 9004174638025275973
+      spriteID: 76c5e802be51bb160800000000000000
+      internalID: 7042246541931600999
       vertices: []
       indices: 
       edges: []

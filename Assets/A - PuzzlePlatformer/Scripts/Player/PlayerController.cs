@@ -97,7 +97,8 @@ namespace PuzzleGame.player
         [SerializeField] private bool isGrounded; // used to check if we are touching the floor
         private bool doJump = false;
 
-        private Animator anim;
+        [SerializeField] private Animator anim;
+        [SerializeField] private SpriteRenderer flipDir;
         private WaitForSeconds animationDuration = new WaitForSeconds(0.4f);
         private float playerMoved;
         #endregion
@@ -108,7 +109,6 @@ namespace PuzzleGame.player
         void Start()
         { 
             rb = GetComponent<Rigidbody2D>();   // gets the rigidBody of the player
-            anim = GetComponent<Animator>();    // gets the animator of the player   '
             pAnimManager = GetComponent<PlayerAnimationManager>();
             stamina = maxStamina;
         }
@@ -142,8 +142,6 @@ namespace PuzzleGame.player
             #region Misc
             // get the movement axis for the player
             playerMoved = Input.GetAxis("Horizontal");
-            
-            SpriteRenderer flipDir = GetComponent<SpriteRenderer>();
             #endregion
 
             #region flipCharacter

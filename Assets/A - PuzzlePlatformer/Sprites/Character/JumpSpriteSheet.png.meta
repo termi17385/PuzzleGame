@@ -1,19 +1,34 @@
 fileFormatVersion: 2
-guid: b945bd3e3ce97074fb62361d3a3d94f7
+guid: 80c882430ce79a54b84165662c046d7e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3191487229801253599
-    second: Scientist_0
+      213: 5055559580849378339
+    second: scientist jump (1)_0
   - first:
-      213: 4496153721236874793
-    second: Scientist_1
+      213: 1522216378458785648
+    second: scientist jump (1)_1
   - first:
-      213: 5014882533444588982
-    second: Scientist_2
+      213: 7228849658750720205
+    second: scientist jump (1)_2
   - first:
-      213: 7042246541931600999
-    second: Scientist_3
+      213: 2812145103854869783
+    second: scientist jump (1)_3
+  - first:
+      213: -8313528741217451354
+    second: scientist jump (1)_4
+  - first:
+      213: -7782485391532526435
+    second: scientist jump (1)_5
+  - first:
+      213: 8048287945078835163
+    second: scientist jump (1)_6
+  - first:
+      213: 5961886565060798993
+    second: scientist jump (1)_7
+  - first:
+      213: -581662264846200503
+    second: scientist jump (1)_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,13 +154,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scientist_0
+      name: scientist jump (1)_0
       rect:
         serializedVersion: 2
-        x: 188
-        y: 706
-        width: 341
-        height: 638
+        x: 1
+        y: 128
+        width: 53
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdacf7de9b07a4c20800000000000000
-      internalID: 3191487229801253599
+      spriteID: 324995d37a4f82640800000000000000
+      internalID: 5055559580849378339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scientist_1
+      name: scientist jump (1)_1
       rect:
         serializedVersion: 2
-        x: 892
-        y: 704
-        width: 341
-        height: 638
+        x: 67
+        y: 128
+        width: 52
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +189,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 926efd1ecfb856e30800000000000000
-      internalID: 4496153721236874793
+      spriteID: 077415d2bbfff1510800000000000000
+      internalID: 1522216378458785648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scientist_2
+      name: scientist jump (1)_2
       rect:
         serializedVersion: 2
-        x: 187
+        x: 130
+        y: 128
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc85a8ce678025460800000000000000
+      internalID: 7228849658750720205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist jump (1)_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d9f14921fb60720800000000000000
+      internalID: 2812145103854869783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist jump (1)_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 64
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2cbb528a960ac80800000000000000
+      internalID: -8313528741217451354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist jump (1)_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94790015ce0ff390800000000000000
+      internalID: -7782485391532526435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist jump (1)_6
+      rect:
+        serializedVersion: 2
+        x: 2
         y: 0
-        width: 341
-        height: 638
+        width: 52
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5964c1811789540800000000000000
-      internalID: 5014882533444588982
+      spriteID: bd78b709e3341bf60800000000000000
+      internalID: 8048287945078835163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scientist_3
+      name: scientist jump (1)_7
       rect:
         serializedVersion: 2
-        x: 890
+        x: 67
         y: 0
-        width: 341
-        height: 638
+        width: 52
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +315,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c5e802be51bb160800000000000000
-      internalID: 7042246541931600999
+      spriteID: 11a6f955e30ecb250800000000000000
+      internalID: 5961886565060798993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist jump (1)_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941d79c70458de7f0800000000000000
+      internalID: -581662264846200503
       vertices: []
       indices: 
       edges: []
