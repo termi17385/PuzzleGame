@@ -31,7 +31,7 @@ namespace PuzzleGame.Player.Ladders
                     ladderInUse = true; // sets the bool value to true 
                 }
             }
-            else
+            else 
             {
                 if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
                 {
