@@ -10,11 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8274475506411697904}
   - component: {fileID: 8274475506411697909}
-  - component: {fileID: 8274475506411697908}
+  - component: {fileID: 8274475506536785586}
   - component: {fileID: 8274475506411697907}
-  - component: {fileID: 8274475506411697906}
+  - component: {fileID: 8274475506411697908}
   - component: {fileID: 8274475506411697905}
   - component: {fileID: 8274475506411697910}
+  - component: {fileID: 8274475506536785587}
   m_Layer: 0
   m_Name: '[CharacterV2]'
   m_TagString: Untagged
@@ -52,31 +53,40 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &8274475506411697908
-Animator:
-  serializedVersion: 3
+--- !u!114 &8274475506536785586
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8274475506411697807}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067c725ba0305c5449a6f1814046d9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  speed: 6
+  jumpHeight: 13
+  stamina: 0
+  maxStamina: 100
+  staminaDepletionAmt: 0
+  sr: {fileID: 0}
+  rb: {fileID: 0}
 --- !u!114 &8274475506411697907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,35 +111,25 @@ MonoBehaviour:
   anim: {fileID: 8274475508287300602}
   jumpDur: 0.2
   airDur: 0.2
---- !u!114 &8274475506411697906
-MonoBehaviour:
+--- !u!95 &8274475506411697908
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8274475506411697807}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29627298e7358104388f0bcf26689517, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  moveSpeed: 10
-  jumpHeight: 8
-  stamina: 0
-  maxStamina: 100
-  pAnimManager: {fileID: 8274475506411697907}
-  isGrounded: 0
-  anim: {fileID: 8274475508287300602}
-  flipDir: {fileID: 8274475508287300603}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!70 &8274475506411697905
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -141,7 +141,7 @@ CapsuleCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.0071909428, y: 0}
   m_Size: {x: 0.5402732, y: 0.91}
@@ -162,6 +162,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.48}
   serializedVersion: 2
   m_Radius: 0.09004021
+--- !u!252 &8274475506536785587
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8274475506411697807}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: 1
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 0
+  m_UseBounce: 0
 --- !u!1 &8274475508287300601
 GameObject:
   m_ObjectHideFlags: 0

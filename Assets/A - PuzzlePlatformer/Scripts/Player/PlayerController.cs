@@ -35,16 +35,19 @@ namespace PuzzleGame.Player
         #endregion
 
         #region Variables
-        [Title("Movement"), Tooltip("Speed is multipled by the axis (-1, 0, 1) and 10")]
+        [Title("Movement")]
         [SerializeField, FoldoutGroup("Variables")] private float speed;
         [SerializeField, FoldoutGroup("Variables")] private float jumpHeight;
+
 
         [Title("Stamina")]
         [SerializeField, FoldoutGroup("Variables")] private float stamina;
         [SerializeField, FoldoutGroup("Variables")] private float maxStamina = 100;
         [SerializeField, FoldoutGroup("Variables")] private float staminaDepletionAmt;
 
-        private Rigidbody2D rb;
+        [Title("Components")]
+        [SerializeField, FoldoutGroup("Components")] private SpriteRenderer sr;
+        [SerializeField, FoldoutGroup("Components")] private Rigidbody2D rb;
         #endregion
 
         // Start is called before the first frame update
@@ -52,11 +55,7 @@ namespace PuzzleGame.Player
         {
             Stamina = 100;
             rb = GetComponent<Rigidbody2D>();
-        }
-
-        private void FixedUpdate()
-        {
-             
+            sr = transform.GetChild(0).GetComponent<SpriteRenderer>();
         }
 
         // Update is called once per frame
@@ -67,17 +66,30 @@ namespace PuzzleGame.Player
 
         protected void PlayerMovement()
         {
-            float x = Input.GetAxis("Horizontal") * Time.deltaTime;
-            float moveSpeed = ((x * speed) * 10);
+            #region Walking
+            #region Variables
+            // move the player left or right using joystick and keyboard
+            float x = Input.GetAxis("Horizontal");
+                float moveSpeed = (x * speed); // sets the speed if the player
+            
+            // bool for checking if space or x is pressed
+            bool jump = (Input.GetKeyDown(KeyCode.Space)
+                || Input.GetKeyDown(KeyCode.JoystickButton1));
+            #endregion
 
-            rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(moveSpeed, rb.velocity.y); // actually moves the player
 
             // flip sprite in direction that the player moves in
-        }
+            if(x < 0f) sr.flipX = true;
+            if(x > 0f) sr.flipX = false;
+            #endregion
 
-        protected void PlayerJumping()
-        {
-
+            #region Jumping
+            if (jump)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+            }
+            #endregion
         }
 
         private void StaminaDepletion(float x)

@@ -1880,56 +1880,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8274475506411697906, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8274475506411697906, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
-      propertyPath: jumpHeight
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8274475506411697906, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 8274475506411697906, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
     - target: {fileID: 8274475506411697907, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 8274475506411697907, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
     - target: {fileID: 8274475506411697909, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
       propertyPath: m_GravityScale
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274475506536785586, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
+      propertyPath: jumpHeight
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274475506536785586, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
---- !u!1 &8274475506536785585 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8274475506411697807, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
-  m_PrefabInstance: {fileID: 8274475506536785584}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8274475506536785586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8274475506536785585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 067c725ba0305c5449a6f1814046d9b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  speed: 15
-  jumpHeight: 10
-  stamina: 0
-  maxStamina: 100
-  staminaDepletionAmt: 0
