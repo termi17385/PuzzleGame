@@ -1884,17 +1884,9 @@ PrefabInstance:
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 8274475506411697907, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
-    - target: {fileID: 8274475506411697909, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
-      propertyPath: m_GravityScale
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8274475506536785586, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
-      propertyPath: jumpHeight
-      value: 13
-      objectReference: {fileID: 0}
     - target: {fileID: 8274475506536785586, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8274475506536785586, guid: da4b343bd1899f04385c731582f56c9e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da4b343bd1899f04385c731582f56c9e, type: 3}

@@ -43,7 +43,6 @@ namespace PuzzleGame.Player.Animations
             
             if(pController.IsGrounded == true) 
                 anim.SetBool("InAir", false);
-            
         }   
 
         //private IEnumerator WalkEffects()
