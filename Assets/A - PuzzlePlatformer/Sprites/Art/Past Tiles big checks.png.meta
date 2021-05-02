@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 8c6979205b43e914b98e658e9631d826
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6255196426895137126
+    second: Past Tiles big checks_0
+  - first:
+      213: 7660110954121052082
+    second: Past Tiles big checks_1
+  - first:
+      213: 4513604926148378746
+    second: Past Tiles big checks_2
+  - first:
+      213: 5397069488144496338
+    second: Past Tiles big checks_3
+  - first:
+      213: 6800023787451771684
+    second: Past Tiles big checks_4
+  - first:
+      213: 8633240045505205518
+    second: Past Tiles big checks_5
+  - first:
+      213: -467823133342888829
+    second: Past Tiles big checks_6
+  - first:
+      213: -7106149644210606970
+    second: Past Tiles big checks_7
+  - first:
+      213: 7391395277221845483
+    second: Past Tiles big checks_8
+  - first:
+      213: -8638895227898008192
+    second: Past Tiles big checks_9
+  - first:
+      213: 7534337659635164787
+    second: Past Tiles big checks_10
+  - first:
+      213: -6891739282491268150
+    second: Past Tiles big checks_11
+  - first:
+      213: -4267547076021261245
+    second: Past Tiles big checks_12
+  - first:
+      213: 2470018199826592237
+    second: Past Tiles big checks_13
+  - first:
+      213: -4764114140444450958
+    second: Past Tiles big checks_14
+  - first:
+      213: -6155281945413771179
+    second: Past Tiles big checks_15
+  - first:
+      213: -2086267610206879493
+    second: Past Tiles big checks_16
+  - first:
+      213: 6547549729911078840
+    second: Past Tiles big checks_17
+  - first:
+      213: 5879100257086711300
+    second: Past Tiles big checks_18
+  - first:
+      213: 7033389015334269910
+    second: Past Tiles big checks_19
+  - first:
+      213: -359027236456315025
+    second: Past Tiles big checks_20
+  - first:
+      213: 6596684056367390928
+    second: Past Tiles big checks_21
+  - first:
+      213: -5998194705452840438
+    second: Past Tiles big checks_22
+  - first:
+      213: 661860575458533295
+    second: Past Tiles big checks_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Past Tiles big checks_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a966f9ebdf31139a0800000000000000
+      internalID: -6255196426895137126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfb678e35e2e4a60800000000000000
+      internalID: 7660110954121052082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70078724cb83ae30800000000000000
+      internalID: 4513604926148378746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6b3f4ca1e36ea40800000000000000
+      internalID: 5397069488144496338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 99
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42be44b4b998e5e50800000000000000
+      internalID: 6800023787451771684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 99
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05d30d941e6fc770800000000000000
+      internalID: 8633240045505205518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 99
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c036fb655f189f0800000000000000
+      internalID: -467823133342888829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_7
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 3
+        width: 288
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cee007c82e16d90800000000000000
+      internalID: -7106149644210606970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9de45e7d2839660800000000000000
+      internalID: 7391395277221845483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d6251af8a7c1880800000000000000
+      internalID: -8638895227898008192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 50
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376e66cce285f8860800000000000000
+      internalID: 7534337659635164787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 50
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3a086f2af9b50a0800000000000000
+      internalID: -6891739282491268150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_12
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 50
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cee777b80a6c4c0800000000000000
+      internalID: -4267547076021261245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 50
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1f96d4774474220800000000000000
+      internalID: 2470018199826592237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_14
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 50
+        width: 144
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f946d3e6772edb0800000000000000
+      internalID: -4764114140444450958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_15
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 50
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550ac37ceab049aa0800000000000000
+      internalID: -6155281945413771179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_16
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 50
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0473b79a61c03e0800000000000000
+      internalID: -2086267610206879493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_17
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 50
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bffd88f9c19dda50800000000000000
+      internalID: 6547549729911078840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_18
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 50
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406af86f882c69150800000000000000
+      internalID: 5879100257086711300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d332228b0e9b9160800000000000000
+      internalID: 7033389015334269910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67c45271aa740bf0800000000000000
+      internalID: -359027236456315025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0e243d2312c8b50800000000000000
+      internalID: 6596684056367390928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_22
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0acad7f1b122cca0800000000000000
+      internalID: -5998194705452840438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Past Tiles big checks_23
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf9a0bcfa66f2900800000000000000
+      internalID: 661860575458533295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
