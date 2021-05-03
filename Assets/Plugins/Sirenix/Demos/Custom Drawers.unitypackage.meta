@@ -1,5 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta
 guid: f72c598587cf8d34b82700e681dc5e65
+=======
+guid: 4267cc04bf0e3644e8682dc734eb628d
+folderAsset: yes
+>>>>>>> dev:Assets/A - PuzzlePlatformer/Prefabs/Menu.meta
+=======
+guid: 579f69fef1c94bc4cae6f99a22003348
+>>>>>>> dev
 DefaultImporter:
   externalObjects: {}
   userData: 
