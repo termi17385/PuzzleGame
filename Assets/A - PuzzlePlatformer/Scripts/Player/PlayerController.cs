@@ -1,221 +1,169 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using PuzzleGame.Player.Animations;
 using Sirenix.OdinInspector;
-/*  ChangeLog and Description
- 
- *  This script is incomplete and will be given a lot of changes                
- *  need to improve movement and add sprinting while also adding
- *  some properties to improve things.
- 
- +  Added sprinting and stamina to the player
- +  Added debugging to the player to show stamina being depleted or recovered
- +  Made it so stamina only drains when the player has actually moved while sprinting
- +  added a public property for detecting if the player is grounded
- 
- *  ChangeLog made by - josh
+
+/* ChangeLog and ErrorLog
+ *  Debugging ui for displaying stamina and speed changes
+ *  Added stamina and jumping 
+ *  need to get animations working
+ *  fixed stamina
  */
-namespace PuzzleGame.player
-{   
-    [RequireComponent(typeof(Rigidbody2D), typeof(PlayerAnimationManager))]
+
+namespace PuzzleGame.Player
+{
     [HideMonoScript]
+    [RequireComponent(typeof(Rigidbody2D), typeof(PlayerAnimationManager))]
     public class PlayerController : SerializedMonoBehaviour
     {
         #region Properties
-        /// <summary>
-        /// this property changes the characters speed
-        /// <br/> when the player holds shift or circle 
-        /// <br/> on ps4 controller 
-        /// </summary>
-        [ShowInInspector, TabGroup("Variables and Properties/Split/Properties", "Properties")] 
-        private float Movement
+        public float Stamina
         {
             get
             {
-                // these are the input keys for changing speed if either of these keys are pressed
-                if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.JoystickButton2)) && stamina > 0)
-                {
-                    return moveSpeed * 1.5f; // increases the speed by 1.5
-                }
-                else
-                {
-                    return moveSpeed; // else returns speed to default value
-                }
+                if (stamina >= 100) stamina = 100;
+                if (stamina <= 0) stamina = 0;
+
+                return stamina;
             }
+            set => stamina = value;
         }
-
-        public bool IsGrounded
+        public float DepleteAmt
         {
-            get => isGrounded;
+            get => staminaDepletionAmt;
         }
-
-        #region Stamina Properties
-        /// <summary>
-        /// Handles getting and assigning stamina
-        /// </summary>
-        [ShowInInspector, TabGroup("Variables and Properties/Split/Properties", "Properties")]
-        private float GetStamina
-        {
-            get 
-            {
-                if(stamina <= 0)stamina = 0;        // makes sure stamina gets reset to 0
-                if(stamina >= 100)stamina = 100;    // makes sure stamina gets reset to 100
-
-                return Mathf.Clamp01(stamina/maxStamina);
-            }
-        }
-        /// <summary>
-        /// Handles depleting stamina
-        /// </summary>
-        [ShowInInspector, ReadOnly, TabGroup("Variables and Properties/Split/Properties", "Debugging")]
-        private float DepleteStamina
-        {
-            get => stamina;
-            set => stamina -= value;
-        }
-        /// <summary>
-        /// Handles recovering stamina
-        /// </summary>
-        [ShowInInspector, ReadOnly, TabGroup("Variables and Properties/Split/Properties", "Debugging")]
-        private float RecoverStamina
-        {
-            get => stamina;
-            set => stamina += value;
-        }
-        #endregion
+        public float MaxStamina => maxStamina;
         #endregion
         #region Variables
-        private Rigidbody2D rb;
-        [TitleGroup("Variables and Properties")]
-        [HorizontalGroup("Variables and Properties/Split", Width = 0.5f)]
-        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "MovementVars")] private float moveSpeed = 10f;
-        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "MovementVars")] private float jumpHeight = 6f;
+        [Title("Movement")]
+        private float _moveSpeed;
+        [SerializeField, FoldoutGroup("Variables")] private float speed;
+        [SerializeField, FoldoutGroup("Variables")] private float jumpHeight;
+        [FoldoutGroup("Variables")] public bool isGrounded = false;
+        [FoldoutGroup("Variables")] public bool canSprint = false;
+        [SerializeField] private float time;
 
-        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "StaminaVars"), ProgressBar(0, 100, r: 0, g: 1, b: 0.3f, Height = 10)] private float stamina;
-        [SerializeField, TabGroup("Variables and Properties/Split/Parameters", "StaminaVars")] private float maxStamina = 100;
+        [Title("Stamina")]
+        [SerializeField, FoldoutGroup("Variables")] private float stamina;
+        [SerializeField, FoldoutGroup("Variables")] private float maxStamina = 100;
+        [SerializeField, FoldoutGroup("Variables")] private float staminaDepletionAmt;
 
-        [SerializeField] private PlayerAnimationManager pAnimManager;
-        [SerializeField] private bool isGrounded; // used to check if we are touching the floor
-        private bool doJump = false;
-
-        private Animator anim;
-        private WaitForSeconds animationDuration = new WaitForSeconds(0.4f);
-        private float playerMoved;
+        [Title("Components")]
+        [SerializeField, FoldoutGroup("Components")] private SpriteRenderer sr;
+        [SerializeField, FoldoutGroup("Components")] private Rigidbody2D rb;
         #endregion
-
-        #region Methods
         #region Start and Update
-        // Start is called before the first frame update
         void Start()
-        { 
-            rb = GetComponent<Rigidbody2D>();   // gets the rigidBody of the player
-            anim = GetComponent<Animator>();    // gets the animator of the player   '
-            pAnimManager = GetComponent<PlayerAnimationManager>();
-            stamina = maxStamina;
+        {
+            Stamina = 100;
+            rb = GetComponent<Rigidbody2D>();
+            sr = transform.GetChild(0).GetComponent<SpriteRenderer>();
         }
-        #region Updates
-        // Update is called once per frame
-        void Update()
+        private void Update()
         {
             PlayerMovement();
-            PlayerJump();
         }
-
-        /// <summary>
-        /// Will be used just for handling the players jumping
-        /// </summary>
-        private void FixedUpdate()
+        #endregion
+        #region PlayerMovement
+        protected void PlayerMovement()
         {
-            if (doJump == true)
+            #region Variables
+            // move the player left or right using joystick and keyboard
+            float x = Input.GetAxis("Horizontal");
+            float moveSpeed = (x * _moveSpeed); // sets the speed if the player
+            
+            // bool for if jump is held to give the player a little boost
+            bool jump = ((Input.GetKeyDown(KeyCode.Space) 
+            || Input.GetKeyDown(KeyCode.JoystickButton1))&&isGrounded); 
+            
+            // bool for sprinting
+            bool sprint = (Input.GetKey(KeyCode.LeftShift) 
+            || Input.GetKey(KeyCode.JoystickButton2));
+            #endregion
+            #region Walking
+            rb.velocity = new Vector2(moveSpeed, rb.velocity.y); // actually moves the player
+            // flip sprite in direction that the player moves in
+            if(x < 0f) sr.flipX = true;
+            if(x > 0f) sr.flipX = false;
+            #endregion
+            #region Sprinting
+            if (sprint && stamina > 0 && canSprint == true)
+            {
+                if(x<0||x>0)StaminaDepletion(staminaDepletionAmt);
+                if(Stamina == 0) canSprint = false;
+                _moveSpeed = 8.5f;
+            }
+            else
+            {
+                _moveSpeed = speed;
+                if(Stamina == 100)canSprint = true;
+                StaminaRecovery(2.5f);
+            }
+            
+            #endregion
+            #region Jumping
+            if (jump)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
-                doJump = false;
-            }
+            } 
+            #endregion
         }
-        #endregion
-        #endregion
-        #region Movement
-        /// <summary>
-        /// Handles the controls for moving the player left and right
-        /// </summary>
-        private void PlayerMovement()
+        private void StaminaDepletion(float x)
         {
-            #region Misc
-            // get the movement axis for the player
-            playerMoved = Input.GetAxis("Horizontal");
-            
-            SpriteRenderer flipDir = GetComponent<SpriteRenderer>();
-            #endregion
-
-            #region flipCharacter
-            if (playerMoved < 0) flipDir.flipX = true; // flips the sprite to look right
-            if (playerMoved > 0) flipDir.flipX = false; // flips the sprite to look left
-            #endregion
-
-            // move the player
-            rb.velocity = new Vector2(playerMoved * Movement, rb.velocity.y);
+            Stamina -= ((x * 10) * Time.deltaTime);
         }
-        /// <summary>
-        /// Handles the controls for getting the player to jump
-        /// </summary>
-        private void PlayerJump()
+        private void StaminaRecovery(float x)
         {
-            // get the inputs for moving the player
-            #region HardCode
-            bool canJump = Input.GetButtonDown("Jump") && isGrounded;
-            #endregion
-
-            if (canJump) // checks if button it pressed
-            {
-                StartCoroutine(pAnimManager.JumpEffects());
-                doJump = true; // lets the player jump
-                
-            }
+            Stamina += ((x * 10) * Time.deltaTime);
         }
-        #endregion
-        #region GroundCheck
+        #region Triggers
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.CompareTag("Ground"))
-            {
-                #region Misc
-                bool inAir = anim.GetBool("InAir");
-                #endregion
-
+            if(other.gameObject.tag == "Ground")
+            { 
                 isGrounded = true;
-                anim.SetBool("Grounded", true);
-                anim.SetBool("InAir", false);
-
-                if (inAir == true) 
-                    StartCoroutine(pAnimManager.LandingEffects());
-            }
+            }  
         }
         private void OnTriggerExit2D(Collider2D other)
         {
-            if (other.gameObject.CompareTag("Ground"))
+            if (other.gameObject.tag == "Ground")
             {
                 isGrounded = false;
-                anim.SetBool("Grounded", false);
             }
         }
         #endregion
         #endregion
-        #region Debugging
+        
+        #region Debug
         private void OnGUI()
         {
-            #region Hard code
-            bool keyPressed = (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.JoystickButton2));
-            bool hasMoved = (playerMoved < 0 || playerMoved > 0);
+            // keeps everything scaled to the native size
+            Vector2 nativeSize = new Vector2(1920, 1080);                                          // used to set the native size of the image
+            Vector3 scale = new Vector3(Screen.width / nativeSize.x, Screen.height / nativeSize.y, 1.0f);   // gets the scale of the screen
+            GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, scale);                   // sets the matrix and scales the GUI accordingly
+            
+            float _x = Mathf.RoundToInt(Stamina);
+            string text = string.Format(" Stamina: {0}\n speed: {1}", _x, _moveSpeed);
 
-            float x = GetStamina;// variable for changing the size of the box
+            #region Styling
+            GUIStyle style = new GUIStyle();
+            style.alignment = TextAnchor.UpperLeft;
+            style.normal.textColor = Color.white;
+            style.fontStyle = FontStyle.Bold;
+            #endregion
+            #region Positioning 
+            float posX = (10.5f * 100);
+            float posY = (6.5f * 100);
             #endregion
 
-            if (keyPressed && hasMoved)DepleteStamina = 0.2f;   // if shift or circle (ps4) pressed deplete stamina
-            else RecoverStamina = 0.05f;                        // recovers stamina when the player isnt running
-
-            GUI.Box(new Rect(10 * 10, 50 * 10, 50, x * 100), "");   // display for showing how much stamina the character has
-            GUI.Box(new Rect(10 * 10, 50 * 10, 50, 100), "");       // background box
+            GUI.BeginGroup(new Rect(posX, posY, 150, 150));
+            GUI.Box(new Rect(0,0,100, 150), text, style);
+            GUI.Box(new Rect(0,0, 100, 80), "");
+            GUI.Box(new Rect(0,50, Stamina, 25), "");
+            GUI.Box(new Rect(0,50, 100, 25), "");
+            GUI.EndGroup();
         }
         #endregion
-
     }
 }
