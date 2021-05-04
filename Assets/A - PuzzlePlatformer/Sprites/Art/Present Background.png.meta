@@ -1,0 +1,2988 @@
+fileFormatVersion: 2
+guid: 9e3bd267ef2b35f438ff3481332349dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8720681927746165383
+    second: Present Background_0
+  - first:
+      213: 4064218392585722740
+    second: Present Background_1
+  - first:
+      213: 2440762167922860277
+    second: Present Background_2
+  - first:
+      213: -4744981344279341234
+    second: Present Background_3
+  - first:
+      213: -4074825645080994791
+    second: Present Background_4
+  - first:
+      213: 3533548795007278036
+    second: Present Background_5
+  - first:
+      213: 1634680154987277586
+    second: Present Background_6
+  - first:
+      213: -5034407416619756284
+    second: Present Background_7
+  - first:
+      213: 3959425728903024081
+    second: Present Background_8
+  - first:
+      213: 1827481822723705292
+    second: Present Background_9
+  - first:
+      213: -947727867606897656
+    second: Present Background_10
+  - first:
+      213: -8881271106966336842
+    second: Present Background_11
+  - first:
+      213: 7450878499676684689
+    second: Present Background_12
+  - first:
+      213: -4711114659668584952
+    second: Present Background_13
+  - first:
+      213: -4308466271364116752
+    second: Present Background_14
+  - first:
+      213: -4010744457906190230
+    second: Present Background_15
+  - first:
+      213: -5410963432504603508
+    second: Present Background_16
+  - first:
+      213: -4498363073328833058
+    second: Present Background_17
+  - first:
+      213: -8210969374720329236
+    second: Present Background_18
+  - first:
+      213: -3946589188890533662
+    second: Present Background_19
+  - first:
+      213: -3558911612654367551
+    second: Present Background_20
+  - first:
+      213: 6486228801929148503
+    second: Present Background_21
+  - first:
+      213: -2992643955402995718
+    second: Present Background_22
+  - first:
+      213: -3469361737030513294
+    second: Present Background_23
+  - first:
+      213: 7628979506912753233
+    second: Present Background_24
+  - first:
+      213: -528549209058733132
+    second: Present Background_25
+  - first:
+      213: 6188729423851659732
+    second: Present Background_26
+  - first:
+      213: 8944327227899570449
+    second: Present Background_27
+  - first:
+      213: -5400851698198882374
+    second: Present Background_28
+  - first:
+      213: 5641466820264230636
+    second: Present Background_29
+  - first:
+      213: -274042267670932116
+    second: Present Background_30
+  - first:
+      213: -5889445719306248766
+    second: Present Background_31
+  - first:
+      213: -2286836463147109859
+    second: Present Background_32
+  - first:
+      213: 7941884641380701487
+    second: Present Background_33
+  - first:
+      213: -5388528613679156011
+    second: Present Background_34
+  - first:
+      213: -1853457526174232919
+    second: Present Background_35
+  - first:
+      213: 328000451910408044
+    second: Present Background_36
+  - first:
+      213: -2441136839260705400
+    second: Present Background_37
+  - first:
+      213: 6811867982222749610
+    second: Present Background_38
+  - first:
+      213: 5395890884369520102
+    second: Present Background_39
+  - first:
+      213: 6879190760241601513
+    second: Present Background_40
+  - first:
+      213: -8517139936426846612
+    second: Present Background_41
+  - first:
+      213: -4088092729106033926
+    second: Present Background_42
+  - first:
+      213: 2436107614031593628
+    second: Present Background_43
+  - first:
+      213: 2754855665575751066
+    second: Present Background_44
+  - first:
+      213: 4585873781174611852
+    second: Present Background_45
+  - first:
+      213: -3020059208233686147
+    second: Present Background_46
+  - first:
+      213: -1739108269553839811
+    second: Present Background_47
+  - first:
+      213: 883944345793611425
+    second: Present Background_48
+  - first:
+      213: 3179132325978300191
+    second: Present Background_49
+  - first:
+      213: -8477290103221106463
+    second: Present Background_50
+  - first:
+      213: -1500145686456908318
+    second: Present Background_51
+  - first:
+      213: 205988458079966837
+    second: Present Background_52
+  - first:
+      213: -3054403068591500106
+    second: Present Background_53
+  - first:
+      213: 8119639497923015217
+    second: Present Background_54
+  - first:
+      213: -3903090727329493723
+    second: Present Background_55
+  - first:
+      213: 7951579982900797681
+    second: Present Background_56
+  - first:
+      213: -8220535360528917851
+    second: Present Background_57
+  - first:
+      213: 5423090406150499840
+    second: Present Background_58
+  - first:
+      213: 2619088082422030170
+    second: Present Background_59
+  - first:
+      213: 7552747968902260671
+    second: Present Background_60
+  - first:
+      213: 6445490187143991367
+    second: Present Background_61
+  - first:
+      213: -3525392888198909064
+    second: Present Background_62
+  - first:
+      213: -1810285926291890856
+    second: Present Background_63
+  - first:
+      213: -718978183591106639
+    second: Present Background_64
+  - first:
+      213: -2675385853697400151
+    second: Present Background_65
+  - first:
+      213: -8246556612149038918
+    second: Present Background_66
+  - first:
+      213: -4794848512624272391
+    second: Present Background_67
+  - first:
+      213: -6458604158232994152
+    second: Present Background_68
+  - first:
+      213: 7247597039084571451
+    second: Present Background_69
+  - first:
+      213: -3560349028965118816
+    second: Present Background_70
+  - first:
+      213: 3595642837504194932
+    second: Present Background_71
+  - first:
+      213: -2908884315869163571
+    second: Present Background_72
+  - first:
+      213: 3502937581552707325
+    second: Present Background_73
+  - first:
+      213: 1663005578095659692
+    second: Present Background_74
+  - first:
+      213: 4176925144095294290
+    second: Present Background_75
+  - first:
+      213: -4023101895372147454
+    second: Present Background_76
+  - first:
+      213: -1779759975315715638
+    second: Present Background_77
+  - first:
+      213: -8599929013855094374
+    second: Present Background_78
+  - first:
+      213: -4309342080793903843
+    second: Present Background_79
+  - first:
+      213: -2229103523494482636
+    second: Present Background_80
+  - first:
+      213: 8431495317460874088
+    second: Present Background_81
+  - first:
+      213: 6842340548674235113
+    second: Present Background_82
+  - first:
+      213: -8904175096625884555
+    second: Present Background_83
+  - first:
+      213: 2064689978132071421
+    second: Present Background_84
+  - first:
+      213: -8554011137553395159
+    second: Present Background_85
+  - first:
+      213: -8859242122116562027
+    second: Present Background_86
+  - first:
+      213: -3999580536577090386
+    second: Present Background_87
+  - first:
+      213: 5945331507338615363
+    second: Present Background_88
+  - first:
+      213: 4060848235525454252
+    second: Present Background_89
+  - first:
+      213: -1014442579402517234
+    second: Present Background_90
+  - first:
+      213: -1729440069565231787
+    second: Present Background_91
+  - first:
+      213: -3362660132444379165
+    second: Present Background_92
+  - first:
+      213: 5508334563455139075
+    second: Present Background_93
+  - first:
+      213: 5720905988412712656
+    second: Present Background_94
+  - first:
+      213: -7684113611208338302
+    second: Present Background_95
+  - first:
+      213: -1896758592481015303
+    second: Present Background_96
+  - first:
+      213: 1947329454604288293
+    second: Present Background_97
+  - first:
+      213: -5832204021240019769
+    second: Present Background_98
+  - first:
+      213: 5878576571082255378
+    second: Present Background_99
+  - first:
+      213: -1407718736412890794
+    second: Present Background_100
+  - first:
+      213: -1486142855314178908
+    second: Present Background_101
+  - first:
+      213: 5004365320706592320
+    second: Present Background_102
+  - first:
+      213: 2100409487897012782
+    second: Present Background_103
+  - first:
+      213: 4433851064569108874
+    second: Present Background_104
+  - first:
+      213: 119230771726661121
+    second: Present Background_105
+  - first:
+      213: -2257346331307410173
+    second: Present Background_106
+  - first:
+      213: 5771471143398307195
+    second: Present Background_107
+  - first:
+      213: 3832205140853667007
+    second: Present Background_108
+  - first:
+      213: -5649205456870498794
+    second: Present Background_109
+  - first:
+      213: -8588592806442906103
+    second: Present Background_110
+  - first:
+      213: -3783690282078010612
+    second: Present Background_111
+  - first:
+      213: 2551516252180711733
+    second: Present Background_112
+  - first:
+      213: 2325623893198568936
+    second: Present Background_113
+  - first:
+      213: 3138841132964562541
+    second: Present Background_114
+  - first:
+      213: 3831778601008296315
+    second: Present Background_115
+  - first:
+      213: 7809850850671734553
+    second: Present Background_116
+  - first:
+      213: -7841064231360449682
+    second: Present Background_117
+  - first:
+      213: 59328660777553204
+    second: Present Background_118
+  - first:
+      213: 2756610994728067767
+    second: Present Background_119
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Present Background_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a9a765206160970800000000000000
+      internalID: 8720681927746165383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b5eab4811076830800000000000000
+      internalID: 4064218392585722740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0214092445fd120800000000000000
+      internalID: 2440762167922860277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47df5c7b90762eb0800000000000000
+      internalID: -4744981344279341234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c9b474aaf4377c0800000000000000
+      internalID: -4074825645080994791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db1be258efa90130800000000000000
+      internalID: 3533548795007278036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21da567a0fc8fa610800000000000000
+      internalID: 1634680154987277586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40599c5c021322ab0800000000000000
+      internalID: -5034407416619756284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd8ec5f8b4b2f630800000000000000
+      internalID: 3959425728903024081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc90eec09058c5910800000000000000
+      internalID: 1827481822723705292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c6d83968ef8d2f0800000000000000
+      internalID: -947727867606897656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bac453bbf26fb480800000000000000
+      internalID: -8881271106966336842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19103ddd486d66760800000000000000
+      internalID: 7450878499676684689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80691567d22ce9eb0800000000000000
+      internalID: -4711114659668584952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe0790e0c04534c0800000000000000
+      internalID: -4308466271364116752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6882a55a29f658c0800000000000000
+      internalID: -4010744457906190230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c4fe83d6568e4b0800000000000000
+      internalID: -5410963432504603508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd108f3e9a9291c0800000000000000
+      internalID: -4498363073328833058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9fe267bd6cc0e80800000000000000
+      internalID: -8210969374720329236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e068c9ea06ea39c0800000000000000
+      internalID: -3946589188890533662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc49b48eb43c9ec0800000000000000
+      internalID: -3558911612654367551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758f4e6dab6b30a50800000000000000
+      internalID: 6486228801929148503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af70cf2ad2ef776d0800000000000000
+      internalID: -2992643955402995718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dc6f2b1e95adfc0800000000000000
+      internalID: -3469361737030513294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156f44401749fd960800000000000000
+      internalID: 7628979506912753233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b39db37b473aa8f0800000000000000
+      internalID: -528549209058733132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_26
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1afa72f98c2e550800000000000000
+      internalID: 6188729423851659732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119eec58932a02c70800000000000000
+      internalID: 8944327227899570449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_28
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab75a44def15c05b0800000000000000
+      internalID: -5400851698198882374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_29
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee700aee248a4e40800000000000000
+      internalID: 5641466820264230636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65180e6208623cf0800000000000000
+      internalID: -274042267670932116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd5ec8625c744ea0800000000000000
+      internalID: -5889445719306248766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12b4ba5a568340e0800000000000000
+      internalID: -2286836463147109859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2590a0e00e373e60800000000000000
+      internalID: 7941884641380701487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d430a786c91835b0800000000000000
+      internalID: -5388528613679156011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae4c1233323746e0800000000000000
+      internalID: -1853457526174232919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6799465caa4d8400800000000000000
+      internalID: 328000451910408044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88deeb77af65f1ed0800000000000000
+      internalID: -2441136839260705400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf6e39c6dd988e50800000000000000
+      internalID: 6811867982222749610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e51d91bb2e02ea40800000000000000
+      internalID: 5395890884369520102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb99568c8bc77f50800000000000000
+      internalID: 6879190760241601513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c661cf28a5a0dc980800000000000000
+      internalID: -8517139936426846612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af217c0925d2447c0800000000000000
+      internalID: -4088092729106033926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_43
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c904af8c7facec120800000000000000
+      internalID: 2436107614031593628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 348
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d6d1ac1a63b3620800000000000000
+      internalID: 2754855665575751066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa0bf28eb44af30800000000000000
+      internalID: 4585873781174611852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b659ca6289616d0800000000000000
+      internalID: -3020059208233686147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d319c473e327dd7e0800000000000000
+      internalID: -1739108269553839811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a64e3cf2b6644c00800000000000000
+      internalID: 883944345793611425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fd5e7b10c8e1c20800000000000000
+      internalID: 3179132325978300191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e84293d09d9a5a80800000000000000
+      internalID: -8477290103221106463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5c66f32796e2be0800000000000000
+      internalID: -1500145686456908318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576dfa74961dbd200800000000000000
+      internalID: 205988458079966837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b49dbf87949c95d0800000000000000
+      internalID: -3054403068591500106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_54
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132bee98a11cea070800000000000000
+      internalID: 8119639497923015217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d8767b9af65d9c0800000000000000
+      internalID: -3903090727329493723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_56
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0a8eb7ddfa95e60800000000000000
+      internalID: 7951579982900797681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aad224d4aacaed80800000000000000
+      internalID: -8220535360528917851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_58
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eed6bddffa24b40800000000000000
+      internalID: 5423090406150499840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 284
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f59340cbed85420800000000000000
+      internalID: 2619088082422030170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7e874f240c0d860800000000000000
+      internalID: 7552747968902260671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740dbffec2bf27950800000000000000
+      internalID: 6445490187143991367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8733735b8d9431fc0800000000000000
+      internalID: -3525392888198909064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d9b759a8290e6e0800000000000000
+      internalID: -1810285926291890856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7ebcdb62da506f0800000000000000
+      internalID: -718978183591106639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2e249adbe1fdad0800000000000000
+      internalID: -2675385853697400151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab035b014785e8d80800000000000000
+      internalID: -8246556612149038918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb58359ea6457db0800000000000000
+      internalID: -4794848512624272391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e59abbcbd6e56a0800000000000000
+      internalID: -6458604158232994152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b0fcd8b13a49460800000000000000
+      internalID: 7247597039084571451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_70
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac8024fb69179ec0800000000000000
+      internalID: -3560349028965118816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_71
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4797d943c1a46e130800000000000000
+      internalID: 3595642837504194932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfc9eb602191a7d0800000000000000
+      internalID: -2908884315869163571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_73
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6a0dacb2fec9030800000000000000
+      internalID: 3502937581552707325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_74
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa82e523ce241710800000000000000
+      internalID: 1663005578095659692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253823bc94b67f930800000000000000
+      internalID: 4176925144095294290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205742734221b28c0800000000000000
+      internalID: -4023101895372147454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac949d56bb50d47e0800000000000000
+      internalID: -1779759975315715638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a997793502ae6a880800000000000000
+      internalID: -8599929013855094374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1df2aa95342234c0800000000000000
+      internalID: -4309342080793903843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d2a8ad722a011e0800000000000000
+      internalID: -2229103523494482636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ff9ab150b20570800000000000000
+      internalID: 8431495317460874088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_82
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaaafb0a70e4fe50800000000000000
+      internalID: 6842340548674235113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_83
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5721cbb0de30e6480800000000000000
+      internalID: -8904175096625884555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_84
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df30fdd889047ac10800000000000000
+      internalID: 2064689978132071421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9221565013c0a4980800000000000000
+      internalID: -8554011137553395159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_86
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593801c6a36ad0580800000000000000
+      internalID: -8859242122116562027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac91c251b2ae78c0800000000000000
+      internalID: -3999580536577090386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_88
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a1bd6918f028250800000000000000
+      internalID: 5945331507338615363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_89
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 156
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9344574f70b5830800000000000000
+      internalID: 4060848235525454252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e059ea949d9fbe1f0800000000000000
+      internalID: -1014442579402517234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dcc317b6bcff7e0800000000000000
+      internalID: -1729440069565231787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7e849fc6e6551d0800000000000000
+      internalID: -3362660132444379165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dffbed919817c40800000000000000
+      internalID: 5508334563455139075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_94
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6aeb09fadb46f40800000000000000
+      internalID: 5720905988412712656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_95
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284de2ef16b8c5590800000000000000
+      internalID: -7684113611208338302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9cf7e0c1c5da5e0800000000000000
+      internalID: -1896758592481015303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_97
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521085252dd460b10800000000000000
+      internalID: 1947329454604288293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_98
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c44260d759df0fa0800000000000000
+      internalID: -5832204021240019769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_99
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21caa40de36e49150800000000000000
+      internalID: 5878576571082255378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_100
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659a2748447c67ce0800000000000000
+      internalID: -1407718736412890794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_101
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac738f62f8206be0800000000000000
+      internalID: -1486142855314178908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_102
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e0003beb3137540800000000000000
+      internalID: 5004365320706592320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_103
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a26f00d47262d10800000000000000
+      internalID: 2100409487897012782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_104
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8911aa3d04388d30800000000000000
+      internalID: 4433851064569108874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106301351c797a100800000000000000
+      internalID: 119230771726661121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30df36bb87b4ca0e0800000000000000
+      internalID: -2257346331307410173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b757ca52d62681050800000000000000
+      internalID: 5771471143398307195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4320f854abe2530800000000000000
+      internalID: 3832205140853667007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_109
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e1908519df991b0800000000000000
+      internalID: -5649205456870498794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ece7bc8503fc880800000000000000
+      internalID: -8588592806442906103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0384ac3cb1ad7bc0800000000000000
+      internalID: -3783690282078010612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_112
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5390ed9438ec86320800000000000000
+      internalID: 2551516252180711733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_113
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edf243fb96464020800000000000000
+      internalID: 2325623893198568936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_114
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66ccb051676f8b20800000000000000
+      internalID: 3138841132964562541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_115
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71fa0306563d2530800000000000000
+      internalID: 3831778601008296315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_116
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f221768f9226c60800000000000000
+      internalID: 7809850850671734553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_117
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e633db410a1fe2390800000000000000
+      internalID: -7841064231360449682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_118
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d45a64a17c2d000800000000000000
+      internalID: 59328660777553204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present Background_119
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2e3b43813714620800000000000000
+      internalID: 2756610994728067767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
