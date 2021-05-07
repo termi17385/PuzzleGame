@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace Packages.TimeManipulator
+using UnityEngine.UI;
+namespace PuzzleGame.TimeManipulator
 {
     public class TimeManipulator : MonoBehaviour
     {
@@ -21,6 +22,9 @@ namespace Packages.TimeManipulator
         [Header("Foregorund")]
         public GameObject foregorundPast;
         public GameObject foregorundPresent;
+        [Header("Screen Flash")]
+        public Image timeFlash;
+        [SerializeField] private float flashSpeed;
         #endregion
 
 
@@ -28,30 +32,34 @@ namespace Packages.TimeManipulator
         // Update is called once per frame
         void Update()
         {
-            ToThePast();        // Calls the method to go to the past
-            BackToTheFuture();  // Calls the method to go to the future
+            StartCoroutine(ToThePast());        // Calls the method to go to the past
+            StartCoroutine(BackToTheFuture());  // Calls the method to go to the future
         }
         #region Past Time Travel
-        private void ToThePast()
+        private IEnumerator ToThePast()
         {
             if (Input.GetKeyDown(KeyCode.Mouse0)) // when left click is pressed
             {
-                bgPresent.SetActive(false);             //Disable the background
-                basePresent.SetActive(false);           //Disable the base layer
-                groundPresent.SetActive(false);         //Disable the ground
-                boundryPresent.SetActive(false);        //Disable the boundry
-                foregorundPresent.SetActive(false);     //Disable the foreground
+                bgPresent.SetActive(false);                     //Disable the background
+                basePresent.SetActive(false);                   //Disable the base layer
+                groundPresent.SetActive(false);                 //Disable the ground
+                boundryPresent.SetActive(false);                //Disable the boundry
+                foregorundPresent.SetActive(false);             //Disable the foreground
 
-                bgPast.SetActive(true);                 //enable the Background
-                basePast.SetActive(true);               //enable the Base layer
-                groundPast.SetActive(true);             //enable the ground
-                boundryPast.SetActive(true);            //enable the boundry
-                foregorundPast.SetActive(true);         //enable the foreground
+                bgPast.SetActive(true);                         //enable the Background
+                basePast.SetActive(true);                       //enable the Base layer
+                groundPast.SetActive(true);                     //enable the ground
+                boundryPast.SetActive(true);                    //enable the boundry
+                foregorundPast.SetActive(true);                 //enable the foreground
+
+                timeFlash.gameObject.SetActive(true);           //Sets the Gameobject to true
+                yield return new WaitForSeconds(flashSpeed);    //Has the game wait till the next line of code is ran 
+                timeFlash.gameObject.SetActive(false);          //Sets the Gameobject to false
             }
         }
         #endregion
         #region Present Time Travel
-        private void BackToTheFuture()
+        private IEnumerator BackToTheFuture()
         {
             if (Input.GetKeyDown(KeyCode.Mouse1))// when right click is pressed 
             {
@@ -66,6 +74,10 @@ namespace Packages.TimeManipulator
                 groundPast.SetActive(false);               //Disable the ground
                 boundryPast.SetActive(false);              //Disable the boundry
                 foregorundPast.SetActive(false);           //Disable the foreground
+
+                timeFlash.gameObject.SetActive(true);      //Sets the Gameobject to true
+                yield return new WaitForSeconds(flashSpeed);    //Has the game wait till the next line of code is ran 
+                timeFlash.gameObject.SetActive(false);     //Sets the Gameobject to false
             }
         }
         #endregion

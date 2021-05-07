@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Obstacle
   - Collectables
+  - Valve
   layers:
   - Default
   - TransparentFX
