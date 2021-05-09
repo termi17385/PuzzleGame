@@ -1,13 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Pausemenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-    public Object pauseMenuUI;
+    public GameObject pauseMenuState;
+   
+  
     // update to refere to functions
     void Update()
     {
+       
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GameIsPaused)
@@ -23,21 +28,23 @@ public class Pausemenu : MonoBehaviour
         // resume and pause function
         public void Resume ()
         {
-            //pauseMenuUI.SetActive(false);
+        pauseMenuState.SetActive(false);
             Time.timeScale = 1f;
             GameIsPaused = false;
         }
         public void Pause()
         {
-            //pauseMenuUI.SetActive(true);
-            Time.timeScale = 0f;
+            pauseMenuState.SetActive(true);
+              Time.timeScale = 0f;
             GameIsPaused = true;
         }
     // menu and quit button functionality
         public void LoadMenu()
         {
+        
         Time.timeScale = 1f;
         SceneManager.LoadScene("MenuScene");
+        GameIsPaused = (false);
         }
 
         public void QuitGame()
