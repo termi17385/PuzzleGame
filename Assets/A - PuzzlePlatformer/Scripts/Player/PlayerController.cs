@@ -34,6 +34,21 @@ namespace PuzzleGame.Player
             get => staminaDepletionAmt;
         }
         public float MaxStamina => maxStamina;
+        [System.Serializable]
+        public struct IMGUI
+        {
+            [Title("Position")]
+            [FoldoutGroup("Size And Position")]
+            public float x;
+            [FoldoutGroup("Size And Position")]
+            public float y;
+            [Space]
+            [Title("Size")]
+            [FoldoutGroup("Size And Position")]
+            public float width;
+            [FoldoutGroup("Size And Position")]
+            public float height;
+        }
         #endregion
         #region Variables
         [Title("Movement")]
@@ -51,7 +66,10 @@ namespace PuzzleGame.Player
 
         [Title("Components")]
         [SerializeField, FoldoutGroup("Components")] private SpriteRenderer sr;
-        [SerializeField, FoldoutGroup("Components")] private Rigidbody2D rb;
+        [SerializeField, FoldoutGroup("Components")] private Rigidbody2D rb; 
+
+        [Title("Struct")]
+        [SerializeField] private IMGUI[] guiSizeAndPos;
         #endregion
         #region Start and Update
         void Start()
@@ -105,7 +123,8 @@ namespace PuzzleGame.Player
             #region Jumping
             if (jump)
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+                if(sr.flipY == true)  rb.velocity = new Vector2(rb.velocity.x, -jumpHeight);
+                else rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
             } 
             #endregion
         }
@@ -148,20 +167,29 @@ namespace PuzzleGame.Player
 
             #region Styling
             GUIStyle style = new GUIStyle();
-            style.alignment = TextAnchor.UpperLeft;
+            style.alignment = TextAnchor.MiddleCenter;
             style.normal.textColor = Color.white;
             style.fontStyle = FontStyle.Bold;
+            style.fontSize = 18;
             #endregion
             #region Positioning 
-            float posX = (10.5f * 100);
-            float posY = (6.5f * 100);
+            float heightOne = -GravityChanger.instance.gravityCoolDown;
+            //float hieghtTwo =;
             #endregion
 
-            GUI.BeginGroup(new Rect(posX, posY, 150, 150));
-            GUI.Box(new Rect(0,0,100, 150), text, style);
-            GUI.Box(new Rect(0,0, 100, 80), "");
-            GUI.Box(new Rect(0,50, Stamina, 25), "");
-            GUI.Box(new Rect(0,50, 100, 25), "");
+            GUI.BeginGroup(new Rect(guiSizeAndPos[0].x, guiSizeAndPos[0].y, guiSizeAndPos[0].width, guiSizeAndPos[0].height));
+            #region Backgrounds and text
+            GUI.Box(new Rect(guiSizeAndPos[1].x, guiSizeAndPos[1].y, guiSizeAndPos[1].width, guiSizeAndPos[1].height), "");
+            GUI.Box(new Rect(guiSizeAndPos[2].x, guiSizeAndPos[2].y, guiSizeAndPos[2].width, guiSizeAndPos[2].height), "");
+            GUI.Box(new Rect(guiSizeAndPos[3].x, guiSizeAndPos[3].y, guiSizeAndPos[3].width, heightOne), "");
+            #region Text
+            GUI.Box(new Rect(0, 0, 110, 100), "Gravity", style);
+            GUI.Box(new Rect(389.24f, 0, 110, 100), "Time\nManipulation", style);
+            #endregion
+            #endregion
+
+            GUI.Box(new Rect(guiSizeAndPos[4].x, guiSizeAndPos[4].y, guiSizeAndPos[4].width, guiSizeAndPos[4].height),"");
+            GUI.Label(new Rect(guiSizeAndPos[5].x, guiSizeAndPos[5].y, guiSizeAndPos[5].width, guiSizeAndPos[5].height), "Stamina : " + _x, style);
             GUI.EndGroup();
         }
         #endregion

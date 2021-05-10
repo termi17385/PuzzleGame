@@ -45,10 +45,15 @@ namespace PuzzleGame.Player.Ladders
                 rb.velocity = new Vector2(rb.velocity.x, vertMovement * ladderClimbSpeed);
                 rb.gravityScale = 0; // sets gravity to 0 so there is no force when climbing the ladder
             }
-            else
-            {
-                rb.gravityScale = 1.5f; // sets gravity back to normal if the player has exited the layermask
-            }
+
+            /*
+             Was causing issues with gravity changer - josh
+             */
+
+            //else 
+            //{
+                //rb.gravityScale = 1.5f; // sets gravity back to normal if the player has exited the layermask
+            //}
         }
     }
 }

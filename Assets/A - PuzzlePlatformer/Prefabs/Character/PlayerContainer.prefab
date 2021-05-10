@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 1822966923567112636}
   - component: {fileID: 1822966923567112635}
   - component: {fileID: 1822966923745063422}
+  - component: {fileID: 1504348530}
+  - component: {fileID: 1504348531}
   m_Layer: 0
   m_Name: '[CharacterV2]'
   m_TagString: Untagged
@@ -52,7 +54,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 3
   m_Material: {fileID: 0}
@@ -82,12 +84,40 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   speed: 6
-  jumpHeight: 13
+  jumpHeight: 16
+  isGrounded: 0
+  canSprint: 0
+  time: 0
   stamina: 0
   maxStamina: 100
-  staminaDepletionAmt: 0
+  staminaDepletionAmt: 5
   sr: {fileID: 0}
   rb: {fileID: 0}
+  guiSizeAndPos:
+  - x: 750
+    y: 0
+    width: 500
+    height: 500
+  - x: 0
+    y: 0
+    width: 500
+    height: 100
+  - x: 389.24
+    y: 97
+    width: 110
+    height: -100
+  - x: 0
+    y: 97
+    width: 110
+    height: -100
+  - x: 155
+    y: 50
+    width: 200
+    height: 20
+  - x: 250
+    y: 35
+    width: 0
+    height: 0
 --- !u!114 &1822966923567112638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +211,43 @@ SurfaceEffector2D:
   m_UseContactForce: 0
   m_UseFriction: 0
   m_UseBounce: 0
+--- !u!114 &1504348530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822966923567112642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f41e3e18b11c74e84cb7905e5976ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 30
+  laderLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  ladderInUse: 0
+--- !u!114 &1504348531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822966923567112642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5410c473a646034bb2a8e7392d868b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  rb: {fileID: 0}
+  circleCol: {fileID: 0}
+  ladder: {fileID: 0}
+  depletionAmt: 15
+  refreshAmt: 10
+  gravityCoolDown: 100
+  canUseGrav: 1
 --- !u!1 &1822966924380058804
 GameObject:
   m_ObjectHideFlags: 0
