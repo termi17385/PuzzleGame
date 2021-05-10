@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PuzzleGame.Prototyping;
+using PuzzleGame.Player;
 
 namespace PuzzleGame.Player.Ladders
 {
@@ -29,6 +29,7 @@ namespace PuzzleGame.Player.Ladders
                 if (Input.GetKeyDown(KeyCode.W))
                 {
                     ladderInUse = true; // sets the bool value to true 
+
                 }
             }
             else
@@ -36,6 +37,7 @@ namespace PuzzleGame.Player.Ladders
                 if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
                 {
                     ladderInUse = false;
+                    float heightOne = -GravityChanger.instance.gravityCoolDown;
                 }
                 
             }
