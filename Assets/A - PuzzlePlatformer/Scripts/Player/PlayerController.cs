@@ -174,7 +174,7 @@ namespace PuzzleGame.Player
             #endregion
             #region Positioning 
             float heightOne = -GravityChanger.instance.gravityCoolDown;
-            //float hieghtTwo =;
+            //float hieghtTwo =;                                        
             #endregion
 
             GUI.BeginGroup(new Rect(guiSizeAndPos[0].x, guiSizeAndPos[0].y, guiSizeAndPos[0].width, guiSizeAndPos[0].height));

@@ -10,7 +10,7 @@ public class GravityChanger : MonoBehaviour
     public static GravityChanger instance = null;
     #region Components
     [FoldoutGroup("Components")]
-    [SerializeField] private SpriteRenderer sprite;
+    public SpriteRenderer sprite;
     [FoldoutGroup("Components")]
     [SerializeField] private Rigidbody2D rb;
     [FoldoutGroup("Components")]
@@ -26,6 +26,7 @@ public class GravityChanger : MonoBehaviour
     
     public float gravityCoolDown = 100;
     public bool canUseGrav = true;
+    [Tooltip("Used this to enable gravity Script")] public bool deviceFound = false;
     #endregion
     #endregion
 
@@ -43,16 +44,21 @@ public class GravityChanger : MonoBehaviour
 
         gravityCoolDown = 100;
         canUseGrav = true;
-    }
+
+        deviceFound = false;
+}
 
     // Update is called once per frame
     void Update()
     {
-        if(gravityCoolDown <= 0) canUseGrav = false;
+        if(deviceFound)
+        {
+            if(gravityCoolDown <= 0) canUseGrav = false;
 
-        ChangeGravity();
-        GravityCoolDown();
-        RefreshGravityCoolDown();
+            ChangeGravity();
+            GravityCoolDown();
+            RefreshGravityCoolDown();
+        }
     }
 
     /// <summary>

@@ -10,6 +10,7 @@ TagManager:
   - Obstacle
   - Collectables
   - Valve
+  - Box
   layers:
   - Default
   - TransparentFX
