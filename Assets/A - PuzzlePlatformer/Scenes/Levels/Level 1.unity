@@ -31512,7 +31512,6 @@ MonoBehaviour:
   valve2Anim: {fileID: 1896113787}
   valve3Anim: {fileID: 462452748}
   doorAnim: {fileID: 1265549941}
-  door: {fileID: 1265549940}
   SequenceCorrect: 0
 --- !u!114 &1072086479
 MonoBehaviour:
@@ -31681,15 +31680,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7753137387440195633, guid: 9f689e78f409d3348b1f6422a5a98243, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -57.920544
+      value: -57.4
       objectReference: {fileID: 0}
     - target: {fileID: 7753137387440195633, guid: 9f689e78f409d3348b1f6422a5a98243, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.921978
+      value: 12.9
       objectReference: {fileID: 0}
     - target: {fileID: 7753137387440195633, guid: 9f689e78f409d3348b1f6422a5a98243, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -108.13526
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7753137387440195633, guid: 9f689e78f409d3348b1f6422a5a98243, type: 3}
       propertyPath: m_LocalRotation.w
@@ -31725,7 +31724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7753137387563808344, guid: 9f689e78f409d3348b1f6422a5a98243, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.4100151
+      value: -1.4100189
       objectReference: {fileID: 0}
     - target: {fileID: 7753137387563808344, guid: 9f689e78f409d3348b1f6422a5a98243, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31733,7 +31732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7753137388410506176, guid: 9f689e78f409d3348b1f6422a5a98243, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000009536743
+      value: -0.0000009536743
       objectReference: {fileID: 0}
     - target: {fileID: 7753137388410506176, guid: 9f689e78f409d3348b1f6422a5a98243, type: 3}
       propertyPath: m_LocalPosition.y

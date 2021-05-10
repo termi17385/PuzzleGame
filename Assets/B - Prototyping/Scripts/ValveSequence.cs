@@ -7,11 +7,10 @@ namespace PuzzleGame.ValveSequencePuzzle
 {
     public class ValveSequence : MonoBehaviour
     {
-        private GameObject valve1, valve2, valve3;
+        public GameObject valve1, valve2, valve3;
         public bool lock1, lock2, lock3;
         public Animator valve1Anim, valve2Anim, valve3Anim;
         public Animator doorAnim;
-        public GameObject door;
         public bool SequenceCorrect = false;
 
         // Start is called before the first frame update
@@ -83,12 +82,12 @@ namespace PuzzleGame.ValveSequencePuzzle
         private void OnTriggerEnter2D(Collider2D collision)
         {
              
-             if (collision.gameObject.CompareTag("Exit"))       //Detects if the player has entered the tigger zone marked with the tag "Exit"
+             if (collision.gameObject.CompareTag("Exit"))       //Detects if the player has entered the trigger zone marked with the tag "Exit"
              {
                 Debug.Log("Player Detected");                   //Quick debug for Testing purposes 
                 if (SequenceCorrect)                            //If the sequence is correct 
                 {
-                    SceneManager.LoadScene(2);                  // Load the following scene
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);                  // Loads the next scene acording to the build index
                 }
              }
                 

@@ -45,7 +45,7 @@ public class GravityChanger : MonoBehaviour
         gravityCoolDown = 100;
         canUseGrav = true;
 
-        deviceFound = false;
+        
 }
 
     // Update is called once per frame
