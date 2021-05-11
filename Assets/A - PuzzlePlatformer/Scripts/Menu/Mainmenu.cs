@@ -13,10 +13,17 @@ public class Mainmenu : MonoBehaviour
 
     public void Quitgame ()
     {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
         // quits game from main menu
-         Debug.Log("quit");
+        Debug.Log("quit");
          Application.Quit();
         
+    }
+    public void ReturnToMainMenu(int levelID)
+    {
+        SceneManager.LoadScene(levelID);
     }
 
 
