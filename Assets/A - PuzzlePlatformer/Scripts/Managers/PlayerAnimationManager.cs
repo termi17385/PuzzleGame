@@ -18,19 +18,18 @@ using PuzzleGame.Prototyping;
 
 namespace PuzzleGame.Player.Animations
 {
-    [RequireComponent(typeof(Animator))]
     [HideMonoScript]
     public class PlayerAnimationManager : SerializedMonoBehaviour
     {
         [SerializeField] private Animator anim;
-        private PlayerControllerOld pController;    
+        private PlayerController pController;    
 
         [SerializeField, TabGroup("jumpAnim")] private float jumpDur = 0.2f;
         [SerializeField, TabGroup("jumpAnim")] private float airDur = 0.2f;
 
         private void Start()
         { 
-            pController = GetComponent<PlayerControllerOld>();
+            pController = GetComponent<PlayerController>();
         }
         public IEnumerator JumpEffects()
         {
@@ -41,7 +40,7 @@ namespace PuzzleGame.Player.Animations
             yield return new WaitForSeconds(airDur);
             anim.SetBool("InAir", true);  
             
-            if(pController.IsGrounded == true) 
+            if(pController.isGrounded == true) 
                 anim.SetBool("InAir", false);
         }   
 

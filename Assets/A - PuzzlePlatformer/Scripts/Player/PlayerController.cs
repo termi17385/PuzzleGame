@@ -66,7 +66,9 @@ namespace PuzzleGame.Player
 
         [Title("Components")]
         [SerializeField, FoldoutGroup("Components")] private SpriteRenderer sr;
-        [SerializeField, FoldoutGroup("Components")] private Rigidbody2D rb; 
+        [SerializeField, FoldoutGroup("Components")] private Rigidbody2D rb;
+        [SerializeField, FoldoutGroup("Components")] private PlayerAnimationManager pAnimManager;
+        [SerializeField, FoldoutGroup("Components")] private Animator anim;
 
         [Title("Struct")]
         [SerializeField] private IMGUI[] guiSizeAndPos;
@@ -75,11 +77,19 @@ namespace PuzzleGame.Player
         void Start()
         {
             Stamina = 100;
+
             rb = GetComponent<Rigidbody2D>();
+            pAnimManager = GetComponent<PlayerAnimationManager>();
+            anim = transform.GetChild(0).GetComponent<Animator>();
             sr = transform.GetChild(0).GetComponent<SpriteRenderer>();
         }
         private void Update()
         {
+            anim.SetBool("Grounded", isGrounded);
+            if(isGrounded == true)
+            {
+                anim.SetBool("InAir", false);
+            }
             PlayerMovement();
         }
         #endregion
@@ -90,7 +100,7 @@ namespace PuzzleGame.Player
             // move the player left or right using joystick and keyboard
             float x = Input.GetAxis("Horizontal");
             float moveSpeed = (x * _moveSpeed); // sets the speed if the player
-            
+            anim.SetFloat("IsWalking", Mathf.Abs(x));
             // bool for if jump is held to give the player a little boost
             bool jump = ((Input.GetKeyDown(KeyCode.Space) 
             || Input.GetKeyDown(KeyCode.JoystickButton1))&&isGrounded); 
@@ -102,29 +112,41 @@ namespace PuzzleGame.Player
             #region Walking
             rb.velocity = new Vector2(moveSpeed, rb.velocity.y); // actually moves the player
             // flip sprite in direction that the player moves in
-            if(x < 0f) sr.flipX = true;
-            if(x > 0f) sr.flipX = false;
+            if(x < 0f)
+            {
+                sr.flipX = true;
+            }
+            if(x > 0f)
+            { 
+                sr.flipX = false;
+            }
             #endregion
             #region Sprinting
             if (sprint && stamina > 0 && canSprint == true)
             {
-                if(x<0||x>0)StaminaDepletion(staminaDepletionAmt);
-                if(Stamina == 0) canSprint = false;
-                _moveSpeed = 8.5f;
+                anim.SetBool("IsSprint", sprint);
+                if (x < 0 || x > 0)
+                {
+                    StaminaDepletion(staminaDepletionAmt);          // when shift is held and the player moves stamina will be depleted
+                }
+                if(Stamina == 0) canSprint = false;                 // stopes the player sprinting when stamina reaches 0
+                _moveSpeed = 8.5f;                                  // changes the move speed
             }
             else
             {
                 _moveSpeed = speed;
                 if(Stamina == 100)canSprint = true;
                 StaminaRecovery(2.5f);
+                anim.SetBool("IsSprint", false);
             }
-            
+
             #endregion
             #region Jumping
             if (jump)
             {
-                if(sr.flipY == true)  rb.velocity = new Vector2(rb.velocity.x, -jumpHeight);
-                else rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+                if(sr.flipY == true)  rb.velocity = new Vector2(rb.velocity.x, -jumpHeight);    // if the player has inverted gravity invert the jump
+                else rb.velocity = new Vector2(rb.velocity.x, jumpHeight);                      // else normal jump
+                StartCoroutine(pAnimManager.JumpEffects());                                     // play animations
             } 
             #endregion
         }

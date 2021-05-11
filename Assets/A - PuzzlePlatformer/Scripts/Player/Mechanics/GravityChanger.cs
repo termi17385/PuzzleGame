@@ -59,6 +59,8 @@ public class GravityChanger : MonoBehaviour
             GravityCoolDown();
             RefreshGravityCoolDown();
         }
+        else
+        rb.gravityScale = 3f;
     }
 
     /// <summary>
