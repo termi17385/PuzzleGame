@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/A - PuzzlePlatformer/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/A - PuzzlePlatformer/Scenes/MenuScene.unity
+    guid: 68fb064ddb22a8a418c42b06bdf46d69
   - enabled: 1
     path: Assets/A - PuzzlePlatformer/Scenes/Levels/Level 1.unity
     guid: c2d155cb7d609c04c8676c106c188411
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/A - PuzzlePlatformer/Scenes/Levels/Level 3.unity
     guid: 40283697a517f1a4f87af96199bcad47
+  - enabled: 1
+    path: Assets/A - PuzzlePlatformer/Scenes/Levels/Finish.unity
+    guid: 742ca2473b4e3294bbea087927e643f6
   m_configObjects: {}

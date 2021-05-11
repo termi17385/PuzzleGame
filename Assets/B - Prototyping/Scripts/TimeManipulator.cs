@@ -22,6 +22,8 @@ namespace PuzzleGame.TimeManipulator
         [Header("Foregorund")]
         public GameObject foregorundPast;
         public GameObject foregorundPresent;
+        [Header("Interior")]
+        public GameObject interiorPresent;
         [Header("Screen Flash")]
         public Image timeFlash;
         [SerializeField] private float flashSpeed;
@@ -45,6 +47,7 @@ namespace PuzzleGame.TimeManipulator
                 groundPresent.SetActive(false);                 //Disable the ground
                 boundryPresent.SetActive(false);                //Disable the boundry
                 foregorundPresent.SetActive(false);             //Disable the foreground
+                interiorPresent.SetActive(false);
 
                 bgPast.SetActive(true);                         //enable the Background
                 basePast.SetActive(true);                       //enable the Base layer
@@ -68,6 +71,7 @@ namespace PuzzleGame.TimeManipulator
                 groundPresent.SetActive(true);             //enable the ground
                 boundryPresent.SetActive(true);            //enable the boundry
                 foregorundPresent.SetActive(true);         //enable the foreground
+                interiorPresent.SetActive(true);
 
                 bgPast.SetActive(false);                   //Disable the background
                 basePast.SetActive(false);                 //Disable the base layer
