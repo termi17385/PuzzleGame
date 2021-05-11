@@ -29,18 +29,11 @@ namespace PuzzleGame.Player.Ladders
                 if (Input.GetKeyDown(KeyCode.W))
                 {
                     ladderInUse = true; // sets the bool value to true 
-
-                }
-            }
-            else
-            {
-                if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
-                {
-                    ladderInUse = false;
-                    float heightOne = -GravityChanger.instance.gravityCoolDown;
+                    
                 }
                 
             }
+            
             if (ladderInUse == true && hitinfo.collider != null)
             {
                 vertMovement = Input.GetAxis("Vertical"); // gets the unity input system and assigns it to vert movement

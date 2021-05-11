@@ -7,12 +7,12 @@ namespace PuzzleGame.OutOfBounds
 {
     public class OutOfBounds : MonoBehaviour
     {
-
+        public string levelName;
         private void OnCollisionEnter2D(Collision2D collision)
         {
             if (collision.gameObject.CompareTag("Player"))
             {
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(levelName);
             }
         }
 
